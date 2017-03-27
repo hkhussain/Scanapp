@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Scanapp</string>
+    <string name="action_settings">Settings</string>
+    <string name="B_strt">Start App</string>
+    <string name="f1">گھرانے کا نمبر</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="syn">Sync </string>
+    <string name="scan">Scan</string>
+
+</resources>
