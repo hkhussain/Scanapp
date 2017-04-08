@@ -46,40 +46,42 @@
                 android:id="@+id/rd101"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="yes" />
+                android:text="Yes" />
 
             <RadioButton
                 android:id="@+id/rd102"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="no" />
-
+                android:text="No" />
         </RadioGroup>
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_gravity="left"
+            android:weightSum="1">
+
 
             <Button
                 android:id="@+id/scan"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="@string/scan" />
-            />
+                android:layout_weight="0.50"
+                android:text="@string/scan"
+                />
+
+
+            <Button
+                android:id="@+id/sync"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/syn"
+                android:layout_weight="0.50"
+                />
 
         </LinearLayout>
-
-
-        <Button
-            android:id="@+id/sync"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
-            android:text="@string/syn" />
-
     </LinearLayout>
 
 

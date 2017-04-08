@@ -7,5 +7,8 @@
     <string name="title_activity_main2">Main2Activity</string>
     <string name="syn">Sync </string>
     <string name="scan">Scan</string>
-
+    <string name="DB">Database Manager</string>
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="login">Login</string>
 </resources>

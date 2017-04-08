@@ -36,7 +36,6 @@ public class Sec1Activity extends Activity {
         scan = (Button) findViewById(R.id.scan);
         sync = (Button) findViewById(R.id.sync);
 
-
         scan.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -50,16 +49,6 @@ public class Sec1Activity extends Activity {
                     editText.setError("Field Cannot be blank");
                 }
 
-
-                if (editText.getText().toString().matches("01234567890"))
-                {
-                    editText.requestFocus();
-                    editText.setError("Invalid Characters seuences");
-
-
-                }
-
-
                 if (rd1.getCheckedRadioButtonId() == -1) {
                     rd102.setError("This data required");
 
@@ -69,9 +58,8 @@ public class Sec1Activity extends Activity {
                 }
 
 
-
-
             }
+
         });
 
 

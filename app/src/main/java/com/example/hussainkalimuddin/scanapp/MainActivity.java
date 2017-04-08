@@ -26,8 +26,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.strt_app:
                 Intent sec1 = new Intent(this, Sec1Activity.class);
                 startActivity(sec1);
-
                 break;
+
+            case R.id.db:
 
         }
 

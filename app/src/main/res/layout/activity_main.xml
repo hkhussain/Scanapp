@@ -16,7 +16,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-
         <Button
             android:id="@+id/strt_app"
             android:layout_width="match_parent"
@@ -24,27 +23,33 @@
             android:layout_marginTop="16dp"
             android:text="@string/B_strt" />
 
-
         <Button
+            android:id="@+id/Hno"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/f1" />
 
         <Button
+            android:id="@+id/frm1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="FORM 1" />
-        
 
         <Button
+            android:id="@+id/setting"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/action_settings"
-            />
+            android:text="@string/action_settings" />
 
+        <Button
+            android:id="@+id/db"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/DB" />
 
     </LinearLayout>
 </ScrollView>
